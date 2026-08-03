@@ -16,7 +16,8 @@
 - [RFC](rfcs/README.md)：重大改革提案。
 - [ADR](adrs/README.md)：已经作出的架构决策。
 - [组织论坛](https://github.com/opentsc/governance/discussions)：公告、讨论、问答、想法与 RFC 审议。
-- [组织演化看板](https://github.com/orgs/opentsc/projects)：跨仓库工作与治理进展。
+- [组织演化看板](https://github.com/orgs/opentsc/projects/1)：跨仓库工作与治理进展。
+- [项目孵化器](https://github.com/orgs/opentsc/projects/2)：成员项目、招募与验证状态。
 
 ## 仓库分工
 
@@ -27,6 +28,7 @@
 | [`governance`](https://github.com/opentsc/governance) | 创世层、双法典、治理记录与公共议事 |
 | [`.github`](https://github.com/opentsc/.github) | 组织主页和默认社区健康文件 |
 | [`project-template`](https://github.com/opentsc/project-template) | 新项目标准起点 |
+| [`organization-skill`](https://github.com/opentsc/organization-skill) | 人类教程与 AI 组织接入 Skill |
 | `organization-infrastructure` | 私有的组织即代码、审计与运行手册 |
 
 ## 基本工作流

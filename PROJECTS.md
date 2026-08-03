@@ -26,7 +26,7 @@ Ideas Discussion
 ## 参与方式
 
 - 在 [Ideas](https://github.com/opentsc/governance/discussions/categories/ideas) 提出或讨论早期想法。
-- 在[项目孵化器](https://github.com/orgs/opentsc/projects)查看“招募中”的项目。
+- 在[项目孵化器](https://github.com/orgs/opentsc/projects/2)查看“招募中”的项目。
 - 通过 `recruiting`、`help wanted`、`good first issue`、`needs-agent` 标签寻找任务。
 - 在项目的 Discussion 或 Issue 中说明希望承担的具体结果，不按前端、后端等永久部门报名。
 
