@@ -19,3 +19,4 @@
 - [论坛](https://github.com/opentsc/governance/discussions)
 - [治理提案](https://github.com/opentsc/governance/issues/new/choose)
 - [RFC 模板](rfcs/0000-template.md)
+- [发起或参与项目](PROJECTS.md)

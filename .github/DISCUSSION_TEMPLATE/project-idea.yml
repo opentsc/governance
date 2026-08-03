@@ -1,0 +1,24 @@
+title: "[项目想法] "
+labels: ["project", "idea", "recruiting"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你观察到的真实问题
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 已有证据或真实用户
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: 最小验证想法
+  - type: textarea
+    id: participation
+    attributes:
+      label: 希望谁来参与
+      description: 写能力或任务，不写永久部门。

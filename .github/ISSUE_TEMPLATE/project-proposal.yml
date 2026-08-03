@@ -1,0 +1,51 @@
+name: 项目提案
+description: 把经过讨论的想法送入 Open TSC 项目孵化器
+title: "[项目] "
+labels: ["project", "incubator", "recruiting"]
+body:
+  - type: input
+    id: discussion
+    attributes:
+      label: 前置 Discussion
+      description: 填写 Ideas 讨论链接。
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 用户、问题与证据
+      description: 谁遇到了什么问题？证据是什么？
+    validations:
+      required: true
+  - type: textarea
+    id: experiment
+    attributes:
+      label: 两周最小验证
+      description: 两周内能交付什么，如何判断有效？
+    validations:
+      required: true
+  - type: textarea
+    id: resources
+    attributes:
+      label: 需要的成员、Agent 与资源
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: 安全、隐私、法律与成本风险
+    validations:
+      required: true
+  - type: textarea
+    id: stop
+    attributes:
+      label: 继续和停止条件
+    validations:
+      required: true
+  - type: input
+    id: reviewer
+    attributes:
+      label: Agent 反方审查 ID
+      description: 没有准备好可以填写“待分配”，进入孵化前必须补齐。
+    validations:
+      required: true

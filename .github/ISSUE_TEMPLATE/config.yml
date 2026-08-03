@@ -6,3 +6,6 @@ contact_links:
   - name: 私密安全报告
     url: https://github.com/opentsc/governance/security
     about: 安全或隐私问题不要公开提交。
+  - name: 项目想法
+    url: https://github.com/opentsc/governance/discussions/categories/ideas
+    about: 成员可以从一个有证据的想法开始发起项目。

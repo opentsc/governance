@@ -12,6 +12,7 @@
 - [判断法典](JUDGMENT-CODEX.md)：组织如何判断“好、可信、值得行动”。
 - [持续演化队列](ROADMAP.md)：当前正在解决的组织问题。
 - [成员制度](MEMBERS.md)：治理席位、身份状态与隐私边界。
+- [成员发起项目](PROJECTS.md)：从想法、孵化、动态组队到正式项目。
 - [RFC](rfcs/README.md)：重大改革提案。
 - [ADR](adrs/README.md)：已经作出的架构决策。
 - [组织论坛](https://github.com/opentsc/governance/discussions)：公告、讨论、问答、想法与 RFC 审议。
@@ -25,6 +26,7 @@
 | [`opentsc`](https://github.com/opentsc/opentsc) | 当前软件实现，可替换的壳 |
 | [`governance`](https://github.com/opentsc/governance) | 创世层、双法典、治理记录与公共议事 |
 | [`.github`](https://github.com/opentsc/.github) | 组织主页和默认社区健康文件 |
+| [`project-template`](https://github.com/opentsc/project-template) | 新项目标准起点 |
 | `organization-infrastructure` | 私有的组织即代码、审计与运行手册 |
 
 ## 基本工作流
