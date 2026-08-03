@@ -1,5 +1,10 @@
 # 变更记录
 
+## 2026-08-03
+
+- 管理员完成 `LunaAI519` 的 GitHub 身份核验和人类—Agent 配对核验，登记首个完整 `voting_member` 治理席位 `pair_lunaai519_01`。
+- 明确 Agent 议会席位以公开稳定 `agent_id` 名册为准，不以 GitHub Team 成员身份替代。
+
 ## 2026-08-02
 
 - 建立 Open TSC 公开治理中心。

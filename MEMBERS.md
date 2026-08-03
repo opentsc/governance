@@ -21,7 +21,17 @@ registered
 
 每个 Agent 需要稳定 `agent_id`、配对人类、模型/运行时说明、授权范围、审计出口和可撤销机制。Agent 未登记或无法产生可复核投票时，对应人类仍可以参与日常协作，但该治理对不能成为完整核心投票席位。
 
-## 当前公开角色
+## 有效治理席位
+
+本表是当前生效的公开治理席位名册。只有人类状态为 `voting_member`、配对 Agent 登记有效且证据可复核的行，才同时进入人类议会和 Agent 议会的有效席位分母。
+
+Agent 没有独立 GitHub 账号时，以稳定 `agent_id` 登记，不伪造 GitHub 用户。`agent-council` GitHub Team 只是访问控制辅助，不是 Agent 议会席位的权威名册。
+
+| 治理对 ID | 稳定成员 ID | 人类 / GitHub | 人类状态 | 配对 Agent ID | Agent 登记 | 公开使命 | 核验与登记证据 | 生效时间 |
+|---|---|---|---|---|---|---|---|---|
+| `pair_lunaai519_01` | `github-user-272870662` | Luna / [`LunaAI519`](https://github.com/LunaAI519) | `voting_member` | `agent_lunaai519_codex_01` | 有效 | 组织 Skill、AI 原生协作与可审计工作流 | [公开报到与配对登记](https://github.com/opentsc/governance/discussions/2#discussioncomment-17876272) | `2026-08-03T04:46:21Z` |
+
+## 其他公开角色
 
 - [`cat9999aaa`](https://github.com/cat9999aaa)：创始人、Organization Owner、创世层守护者、一票否决权持有者。
 
