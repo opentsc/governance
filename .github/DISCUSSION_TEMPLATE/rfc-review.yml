@@ -1,0 +1,23 @@
+title: "[RFC 审议] "
+labels: ["rfc"]
+body:
+  - type: input
+    id: rfc
+    attributes:
+      label: RFC 链接
+    validations:
+      required: true
+  - type: textarea
+    id: support
+    attributes:
+      label: 支持理由与证据
+  - type: textarea
+    id: opposition
+    attributes:
+      label: 反对理由、风险与缺失证据
+    validations:
+      required: true
+  - type: textarea
+    id: conditions
+    attributes:
+      label: 接受该提案所需条件

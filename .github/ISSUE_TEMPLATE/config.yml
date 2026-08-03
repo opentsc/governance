@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 组织论坛
+    url: https://github.com/opentsc/governance/discussions
+    about: 一般讨论、问答和想法请优先进入论坛。
+  - name: 私密安全报告
+    url: https://github.com/opentsc/governance/security
+    about: 安全或隐私问题不要公开提交。

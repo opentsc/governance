@@ -1,0 +1,39 @@
+name: RFC 启动申请
+description: 为核心进化或跨组织重大改革建立 RFC
+title: "[RFC] "
+labels: ["governance", "rfc"]
+body:
+  - type: input
+    id: author
+    attributes:
+      label: 作者与 Agent ID
+      description: 填写 GitHub 用户名和参与起草的 Agent ID。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 问题与证据
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: 影响范围
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: 替代方案
+    validations:
+      required: true
+  - type: checkboxes
+    id: readiness
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我理解 RFC 需要双议会审议，且创始人可以否决。
+          required: true
+        - label: 我没有在公开内容中提交私人联系方式、凭据或验证码。
+          required: true

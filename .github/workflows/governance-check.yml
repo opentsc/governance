@@ -1,0 +1,32 @@
+name: 治理完整性检查
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  required-files:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: 检查权威治理文件
+        shell: bash
+        run: |
+          set -euo pipefail
+          required=(
+            README.md GENESIS.md GOVERNANCE.md AI-CONSTITUTION.md
+            JUDGMENT-CODEX.md ROADMAP.md MEMBERS.md SECURITY.md
+            policies/language.md policies/privacy.md policies/permissions.md
+            rfcs/0000-template.md adrs/0001-github-operating-shell.md
+          )
+          for path in "${required[@]}"; do
+            test -s "$path" || { echo "缺少或为空: $path"; exit 1; }
+          done
+          grep -q "中文" README.md
+          grep -q "一票否决权" GOVERNANCE.md
+          grep -q "全体有效人类" GOVERNANCE.md
+          grep -q "Agent 议会" GOVERNANCE.md

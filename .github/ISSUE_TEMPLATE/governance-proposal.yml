@@ -1,0 +1,33 @@
+name: 治理提案
+description: 提议调整流程、团队、权限、仓库或组织规则
+title: "[提案] "
+labels: ["governance", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: 请用中文提供证据、影响和验证方法。核心变更请进一步提交 RFC。
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题与证据
+      description: 当前发生了什么？证据在哪里？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影响、风险与隐私
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证、失败信号与回滚
+    validations:
+      required: true

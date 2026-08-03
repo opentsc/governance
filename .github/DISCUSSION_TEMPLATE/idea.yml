@@ -1,0 +1,22 @@
+title: "[想法] "
+labels: ["idea"]
+body:
+  - type: textarea
+    id: observation
+    attributes:
+      label: 观察与证据
+      description: 你看到了什么真实问题或机会？
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想法
+    validations:
+      required: true
+  - type: textarea
+    id: test
+    attributes:
+      label: 最小验证方法
+    validations:
+      required: true
