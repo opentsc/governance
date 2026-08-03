@@ -4,7 +4,7 @@
 
 **Goal:** 将 `opentsc` GitHub Organization 建成可直接运行、中文优先、可持续进化的人机共治组织框架。
 
-**Architecture:** `governance` 保存公开治理契约和协作入口，`.github` 提供组织级社区文件，`organization-infrastructure` 私密保存组织期望状态与审计运行手册。GitHub Discussions、Wiki、Projects、Teams 和仓库级保护共同构成当前运行壳。
+**Architecture:** `governance` 保存公开治理契约和协作入口，`.github` 提供组织级社区文件，`organization-infrastructure` 私密保存组织期望状态与审计运行手册。GitHub Discussions、Projects、Teams 和仓库级保护共同构成当前运行壳。
 
 **Tech Stack:** GitHub Organization、Git、Markdown、YAML、GitHub Actions、GitHub CLI、GitHub REST/GraphQL API。
 
@@ -87,7 +87,6 @@
 
 **Files:**
 - Create: GitHub Discussion 欢迎帖。
-- Create: GitHub Wiki `Home` 页面。
 - Create: GitHub Project “Open TSC 组织演化”。
 - Create: `human-council`、`agent-council`、`maintainers`、`contributors` Teams。
 
@@ -95,11 +94,10 @@
 - Consumes: 治理文档和已接受邀请的成员名单。
 - Produces: 论坛、知识入口、路线图和动态权限容器。
 
-- [ ] **Step 1: 启用治理仓库 Discussions 和 Wiki。**
+- [ ] **Step 1: 启用治理仓库 Discussions。**
 - [ ] **Step 2: 创建论坛欢迎帖与成员报到帖。**
-- [ ] **Step 3: 初始化 Wiki 首页。**
-- [ ] **Step 4: 创建并填充组织 Project。**
-- [ ] **Step 5: 创建团队并加入当前正式成员。**
+- [ ] **Step 3: 创建并填充组织 Project。**
+- [ ] **Step 4: 创建团队并加入当前正式成员。**
 
 ### Task 5: 配置权限与保护
 
@@ -123,7 +121,7 @@
 - Create: 线程内微信群通知文案。
 
 **Interfaces:**
-- Consumes: 实际成员、邀请、仓库、团队、论坛、Wiki、Project 和保护状态。
+- Consumes: 实际成员、邀请、仓库、团队、论坛、Project 和保护状态。
 - Produces: 可直接发送到微信群的中文通知。
 
 - [ ] **Step 1: 逐项核验显式需求和实际外部状态。**

@@ -5,7 +5,7 @@ TSC 白皮书（理论）
         ↓
 governance（创世层、双法典、决策）
         ↓
-GitHub 壳（Repos / Issues / PR / Discussions / Wiki / Projects / Teams）
+GitHub 壳（Repos / Issues / PR / Discussions / Projects / Teams）
         ↓
 人类—Agent 治理对与动态执行单元
         ↓

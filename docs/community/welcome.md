@@ -13,4 +13,4 @@
 3. 想参与的使命或问题；
 4. 配对 Agent 的公开 ID（准备好以后补充即可）。
 
-开始前请阅读：[治理中心](https://github.com/opentsc/governance) · [Wiki](https://github.com/opentsc/governance/wiki) · [组织演化看板](https://github.com/orgs/opentsc/projects)
+开始前请阅读：[治理中心](https://github.com/opentsc/governance) · [组织演化看板](https://github.com/orgs/opentsc/projects)

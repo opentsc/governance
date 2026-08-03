@@ -15,7 +15,6 @@
 - [RFC](rfcs/README.md)：重大改革提案。
 - [ADR](adrs/README.md)：已经作出的架构决策。
 - [组织论坛](https://github.com/opentsc/governance/discussions)：公告、讨论、问答、想法与 RFC 审议。
-- [Wiki](https://github.com/opentsc/governance/wiki)：新成员知识导航。
 - [组织演化看板](https://github.com/orgs/opentsc/projects)：跨仓库工作与治理进展。
 
 ## 仓库分工
